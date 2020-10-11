@@ -1,0 +1,12 @@
+# bash
+alias ls="ls --color"
+alias setclip="pbcopy"
+alias rm="trash"
+alias grep="grep --color=auto"
+alias fvim='vim $(fzf)'
+
+alias ls="ls --color=auto"
+alias ll="ls -la"
+
+alias edit_aliases="vim ~/.bash_aliases"
+alias aliases_help="cat $0"
