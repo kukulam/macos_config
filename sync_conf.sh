@@ -19,3 +19,4 @@ cp ~/.zshrc $DIR/shell
 (cd $DIR && git add .)
 (cd $DIR && git commit -m 'Auto commit.')
 (cd $DIR && git push)
+
