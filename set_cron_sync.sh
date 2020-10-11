@@ -2,8 +2,10 @@
 
 set -e
 
+# brew install coreutils
+
 DIR_SHORT=$(dirname "$0")
-DIR=$(readlink -f "$DIR_SHORT")
+DIR=$(greadlink -f "$DIR_SHORT")
 
 CRON_TASK_SCRIPT="$DIR/sync_conf.sh"
 CRON_TASK_COMMAND="*/15 * * * * $CRON_TASK_SCRIPT"
